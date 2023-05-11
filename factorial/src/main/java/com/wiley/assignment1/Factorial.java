@@ -34,7 +34,7 @@ public class Factorial {
 		*/
 
 		//YOUR CODE STARTS HERE
-
+		int i = 10;
 		return -1;
 
 		//YOUR CODE ENDS HERE
