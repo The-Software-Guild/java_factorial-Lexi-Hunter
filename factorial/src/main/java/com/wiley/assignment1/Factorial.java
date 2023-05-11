@@ -35,16 +35,22 @@ public class Factorial {
 
 		//YOUR CODE STARTS HERE
 		 
+		// Check if the input is an integer
 		if(scanner.hasNextInt()) {
+			// num is an integer
 			num = scanner.nextInt();
 			scanner.close();
+			
 			if(num < 1 || num > 10) {
+				// num is out of range, give error
 				this.printStream.print("Please Enter valid Input as number between 1 and 10 only, both inclusive");
 				return -1;
 			}else {
+				// num is an integer and within range
 				return num;
 			}
 		}else {
+			// num is not an integer, give error
 			this.printStream.print("Please Enter valid Input as number between 1 and 10 only, both inclusive");
 			return -1;
 		}
