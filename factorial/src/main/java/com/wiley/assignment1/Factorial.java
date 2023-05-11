@@ -35,7 +35,7 @@ public class Factorial {
 
 		//YOUR CODE STARTS HERE
 		 
-		num = scanner.nextInt();
+		 num = scanner.nextInt();
 		 scanner.close();
 		 
 		 if(num < 1 || num > 10) {
